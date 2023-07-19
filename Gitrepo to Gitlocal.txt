@@ -1,0 +1,24 @@
+How to clone from remote repo to local repo
+git clone <remote repo link>
+
+How to delete a file
+git rm <file>
+git commit -m ""
+
+How to rename a file
+git mv <old file name> <new file name>
+git commit -m""
+
+How to move a file to folder
+git mv <file> <folder>
+git commit -m""
+
+How to move a file to folder with new name
+git mv <old file name> <folder>/<new file name>
+git commit -m""
+
+How to push local repo to remote repo
+git remote add origin <remote repo link>
+git add .
+git push origin main
+
